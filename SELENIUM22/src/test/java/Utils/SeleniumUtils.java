@@ -41,8 +41,6 @@ public class SeleniumUtils
     {
         Actions action = new Actions(driver);
         action.sendKeys(Keys.ENTER);
-
-
     }
 
     public String getScreenshot(WebDriver driver, String screenshotName) throws Exception
@@ -57,6 +55,12 @@ public class SeleniumUtils
         FileUtils.copyFile(source, finalDestination);
         //Returns the captured file path
         return destination;
+    }
+
+    public void test ()
+    {
+        //test
+
     }
 
 
